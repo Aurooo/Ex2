@@ -127,6 +127,7 @@ namespace Ex2
             this.sum.Name = "sum";
             this.sum.Size = new System.Drawing.Size(200, 39);
             this.sum.TabIndex = 2;
+            this.sum.Controls.RemoveAt(0);
             // 
             // minusLeftLabel
             // 
@@ -175,6 +176,7 @@ namespace Ex2
             this.difference.Name = "difference";
             this.difference.Size = new System.Drawing.Size(200, 39);
             this.difference.TabIndex = 3;
+            this.difference.Controls.RemoveAt(0);
             // 
             // product
             // 
@@ -183,6 +185,7 @@ namespace Ex2
             this.product.Name = "product";
             this.product.Size = new System.Drawing.Size(200, 39);
             this.product.TabIndex = 4;
+            this.product.Controls.RemoveAt(0);
             // 
             // quotient
             // 
@@ -191,6 +194,7 @@ namespace Ex2
             this.quotient.Name = "quotient";
             this.quotient.Size = new System.Drawing.Size(200, 39);
             this.quotient.TabIndex = 5;
+            this.quotient.Controls.RemoveAt(0);
             // 
             // timesLeftLabel
             // 
